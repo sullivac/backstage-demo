@@ -1,0 +1,24 @@
+{
+  "name": "backstage-demo",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sullivac/backstage-demo#readme",
+  "bugs": {
+    "url": "https://github.com/sullivac/backstage-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sullivac/backstage-demo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "isolated-vm": "^6.1.2"
+  },
+  "packageManager": "yarn@4.4.1"
+}
