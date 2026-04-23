@@ -1,6 +1,10 @@
 app:
   title: Scaffolded Backstage App
   baseUrl: http://localhost:3000
+  listen:
+    # Listen to all interfaces, this is required for Docker and WSL to work properly, but can be set to
+    # a specific interface if needed
+    host: 0.0.0.0
 
   # Enable all packages by default, this will discover packages from packages/app/package.json
   packages: all
